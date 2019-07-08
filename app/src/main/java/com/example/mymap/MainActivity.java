@@ -29,7 +29,7 @@ import com.mapbox.mapboxsdk.maps.MapView;
      @Override
      protected void onResume() {
          super.onResume();
-         mapView.onPause();
+         mapView.onResume();
      }
 
      @Override
